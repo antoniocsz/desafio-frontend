@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-// import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-// import RaisedButton from 'material-ui/RaisedButton';
 
 
 class App extends Component {
@@ -21,7 +19,22 @@ class Input extends Component {
     return (
       <div>
         <h1>{this.props.title}</h1>
-        <h1>{this.props.information}</h1>
+        <form>
+          <input type="text" />
+          <button value="buscar" />
+        </form>
+
+        <>
+      </div>
+    );
+  }
+}
+
+class Maps extends Component {
+  render () {
+    return (
+      <div>
+
       </div>
     );
   }
