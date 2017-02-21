@@ -1,9 +1,14 @@
 import React, { Component } from 'react';
-import SearchContainer from './Components/SearchContainer';
+import Geosuggest from 'react-geosuggest';
 
 class App extends Component {
   render() {
-    return <SearchContainer />;
+    return (
+      <div>
+        <Geosuggest 
+          />
+      </div>
+    );
   }
 }
 
