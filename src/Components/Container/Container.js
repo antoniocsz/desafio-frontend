@@ -19,7 +19,6 @@ class Container extends Component {
         this.setState(
           {data: dados}
           )
-          console.log(this.state.data);
         });
       }
     }
@@ -29,7 +28,7 @@ class Container extends Component {
       <div>
         <AutoComplete searchAddress={this.searchAddress.bind(this)} />
         <h1>{this.state.inputValue}</h1>
-        <BuildMap inputValue={this.state.inputValue}/>
+        <BuildMap data={this.state.data}/>
       </div>
     );
   }

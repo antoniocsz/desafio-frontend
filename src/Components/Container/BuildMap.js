@@ -12,6 +12,7 @@ class BuildMap extends Component {
   render() {
     return (
       <div style={divStyle}>
+        {console.log(this.props.data)}
         <SimpleMapExample />
       </div>
     );
