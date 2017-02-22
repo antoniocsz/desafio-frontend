@@ -9,6 +9,7 @@ const divStyle = {
 
 class BuildMap extends Component {
 
+
   render() {
     return (
       <div style={divStyle}>
