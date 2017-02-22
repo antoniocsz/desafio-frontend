@@ -28,9 +28,6 @@ const SimpleMapExampleGoogleMap = withGoogleMap(props => (
   />
 ));
 
-/*
- * Add <script src="https://maps.googleapis.com/maps/api/js"></script> to your HTML to provide google.maps reference
- */
 class SimpleMapExample extends Component {
 
   render() {
